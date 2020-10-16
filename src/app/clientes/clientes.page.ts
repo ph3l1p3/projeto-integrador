@@ -7,23 +7,15 @@ import { ClienteService } from '../services/cliente.service';
   styleUrls: ['./clientes.page.scss'],
 })
 export class ClientesPage implements OnInit {
-
   lista : Cliente[] = [];
 
-  constructor(private clienteServ : ClienteService) { }
-
+  constructor( private clienteServ : ClienteService ) { }
   ngOnInit() {
     this.clienteServ.listaDeClientes().subscribe(response=>{
-
       console.log(response);
       this.lista = response;
-      console.log(this.lista);
-
+      console.log(this.lista)
     },err=>{
-
     })
-    }
-    
   }
-
-
+}

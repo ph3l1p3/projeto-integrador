@@ -1,15 +1,13 @@
 export class Cliente{
-    
-    id : string;
-    cidade : string;
-    cpf : string;
-    email : string;
-    endereco : string;
-    estado : string;
-    nome : string;
-    numero : string;
-    telefone : string;
-
+    id: string;
+    cidade: string;
+    cpf: string;
+    email: string;
+    endereco: string;
+    estado: string;
+    nome: string;
+    numero: string;
+    telefone: string;
     setData(objFirebase : any){
         this.cidade = objFirebase.cidade;
         this.cpf = objFirebase.cpf;
@@ -20,5 +18,4 @@ export class Cliente{
         this.numero = objFirebase.numero;
         this.telefone = objFirebase.telefone;
     }
-
 }

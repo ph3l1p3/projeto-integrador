@@ -5,13 +5,14 @@
 export const environment = {
   production: true,
   firebase : {
-  apiKey: "AIzaSyD-a5_iWdNDRTHBo81MP0ukiMlCTjkbQbI",
-  authDomain: "senac-20195.firebaseapp.com",
-  databaseURL: "https://senac-20195.firebaseio.com",
-  projectId: "senac-20195",
-  storageBucket: "senac-20195.appspot.com",
-  messagingSenderId: "604562411891",
-  appId: "1:604562411891:web:32865d9dcb1fbe2d3ff506"
+    apiKey: "AIzaSyA6udzO05S0wGp777dGhXrIXCos3Gdo-ko",
+    authDomain: "myapp-6fe7f.firebaseapp.com",
+    databaseURL: "https://myapp-6fe7f.firebaseio.com",
+    projectId: "myapp-6fe7f",
+    storageBucket: "myapp-6fe7f.appspot.com",
+    messagingSenderId: "311146224509",
+    appId: "1:311146224509:web:42c520eb4c54cdb0044a14",
+    measurementId: "G-3KDBJ3S6F8"
   }
  }; 
  
