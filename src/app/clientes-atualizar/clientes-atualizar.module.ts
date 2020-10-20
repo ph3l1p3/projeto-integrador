@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
-import { ClientesNovoPageRoutingModule } from './clientes-novo-routing.module';
-import { ClientesNovoPage } from './clientes-novo.page';
+import { ClientesAtualizarPageRoutingModule } from './clientes-atualizar-routing.module';
+import { ClientesAtualizarPage } from './clientes-atualizar.page';
 
 @NgModule({
   imports: [
@@ -11,8 +11,8 @@ import { ClientesNovoPage } from './clientes-novo.page';
     FormsModule,
     IonicModule,
     ReactiveFormsModule,
-    ClientesNovoPageRoutingModule
+    ClientesAtualizarPageRoutingModule
   ],
-  declarations: [ClientesNovoPage]
+  declarations: [ClientesAtualizarPage]
 })
-export class ClientesNovoPageModule {}
+export class ClientesAtualizarPageModule {}
